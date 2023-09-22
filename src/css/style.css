@@ -3095,7 +3095,7 @@ p {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: url(../../public/assets/imgs/header.jpg);
+  background-image: url(..//header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

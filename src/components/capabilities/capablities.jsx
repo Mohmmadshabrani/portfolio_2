@@ -1,6 +1,9 @@
 import React from "react";
 import Pencil from "./components/pencil-case.svg";
 import responsive from "./components/responsive.svg";
+import toolbox from "./components/toolbox.svg";
+import analytics from "./components/analytics.svg";
+import "../../css/style.css";
 function Capablities() {
   return (
     <>
@@ -29,7 +32,7 @@ function Capablities() {
                     alt="responsive Icon"
                     className="icon"
                   />
-                  <h6 className="title">Web Design & Development</h6>
+                  <h6 className="title">Web Design</h6>
                   <p className="subtitle">
                     Creating dynamic, responsive, and visually appealing
                     websites that provide an exceptional user experience.
@@ -40,16 +43,11 @@ function Capablities() {
             <div className="col-md-6 col-lg-3">
               <div className="capabilities-card">
                 <div className="body">
-                  <img
-                    src="assets/imgs/toolbox.svg"
-                    alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                    className="icon"
-                  />
+                  <img src={toolbox} alt="toolbox-icon" className="icon" />
                   <h6 className="title">Backend Development</h6>
                   <p className="subtitle">
-                    Developing robust and scalable backend solutions using PHP
-                    and the Laravel framework. Experience in database
-                    management, RESTful API design, and server-side logic.
+                    Developing scalable backend solutions. Experience in RESTful
+                    API design, and server-side logic.
                   </p>
                 </div>
               </div>
@@ -57,11 +55,7 @@ function Capablities() {
             <div className="col-md-6 col-lg-3">
               <div className="capabilities-card">
                 <div className="body">
-                  <img
-                    src="assets/imgs/analytics.svg"
-                    alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                    className="icon"
-                  />
+                  <img src={analytics} alt="analytics icon" className="icon" />
                   <h6 className="title">Database Management</h6>
                   <p className="subtitle">
                     Designing and managing databases. Experience in data
@@ -76,6 +70,5 @@ function Capablities() {
     </>
   );
 }
-
 
 export default Capablities;

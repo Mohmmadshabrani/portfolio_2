@@ -1,7 +1,4 @@
-import logo from "./logo.svg";
 import "./App.css";
-import style from "./css/style.css";
-
 import Navbar from "./components/navbar/navbar";
 import Header from "./components/header/header";
 import About from "./components/about/about";
