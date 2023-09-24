@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio_2/static/css/main.4fc55255.css",
+    "main.js": "/portfolio_2/static/js/main.05c20a66.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio_2/static/js/787.1ed0c42c.chunk.js",
+    "static/media/header.jpg": "/portfolio_2/static/media/header.c5a697da7bf29474fe2c.jpg",
+    "static/media/CV.pdf": "/portfolio_2/static/media/CV.eddcd64c0cafa804d252.pdf",
+    "static/media/city_serve-lg.webp": "/portfolio_2/static/media/city_serve-lg.f0784f7ed61348580f3b.webp",
+    "static/media/persento-lg.webp": "/portfolio_2/static/media/persento-lg.56ac5aad67ee42310c79.webp",
+    "static/media/city_serve-md.webp": "/portfolio_2/static/media/city_serve-md.459662fb03a3fcee37b6.webp",
+    "static/media/MainPicture.svg": "/portfolio_2/static/media/MainPicture.bd6092dbebd1dff9379dd9c4632de398.svg",
+    "static/media/persento-md.webp": "/portfolio_2/static/media/persento-md.69a87b4b39ad62d5cd8f.webp",
+    "static/media/Quizsh-lg.webp": "/portfolio_2/static/media/Quizsh-lg.11054c58e2cdbe7cb79c.webp",
+    "static/media/city_serve-sm.webp": "/portfolio_2/static/media/city_serve-sm.0070435ad15a672dc6e8.webp",
+    "static/media/persento-sm.webp": "/portfolio_2/static/media/persento-sm.7419084182fa2b249fea.webp",
+    "static/media/Quizsh-md.webp": "/portfolio_2/static/media/Quizsh-md.70e09773cc7b88c6a203.webp",
+    "static/media/Quizsh-sm.webp": "/portfolio_2/static/media/Quizsh-sm.f5ba7272686278fed2b4.webp",
+    "static/media/analytics.svg": "/portfolio_2/static/media/analytics.aec4d713b472529e23ae9d810f413ebe.svg",
+    "static/media/pencil-case.svg": "/portfolio_2/static/media/pencil-case.bd2cd0441ef6ffa7705e050d7b85a87b.svg",
+    "static/media/responsive.svg": "/portfolio_2/static/media/responsive.0bbd97d94ebe67eebea2968b9486d0f3.svg",
+    "static/media/toolbox.svg": "/portfolio_2/static/media/toolbox.824899ad7f17c911a6819c4f44c072bf.svg",
+    "index.html": "/portfolio_2/index.html",
+    "main.4fc55255.css.map": "/portfolio_2/static/css/main.4fc55255.css.map",
+    "main.05c20a66.js.map": "/portfolio_2/static/js/main.05c20a66.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio_2/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fc55255.css",
+    "static/js/main.05c20a66.js"
+  ]
+}
