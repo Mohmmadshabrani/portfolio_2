@@ -14,6 +14,8 @@ function HireMe() {
             </div>
             <div className="col-sm offset-sm-2 offset-md-3">
               <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/mohammad-shabrani-bb0036234/"
                 className="btn btn-lg my-font btn-light rounded"
               >
@@ -27,5 +29,4 @@ function HireMe() {
   );
 }
 
-
-export default HireMe; 
+export default HireMe;

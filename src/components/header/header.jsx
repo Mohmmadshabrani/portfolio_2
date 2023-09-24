@@ -8,9 +8,9 @@ function Header() {
         <div className="header-content container">
           <h1 className="header-title">
             <span className="up">HI!</span>
-            <span className="down">I am Mohamamd Shabrani</span>
+            <span className="down">I am Mohammad Shabrani</span>
           </h1>
-          <p className="header-subtitle">FRONTEND WEB DESIGNER</p>
+          <p className="header-subtitle">FULLSTACK WEB DESIGNER</p>
           <a href="https://github.com/Mohmmadshabrani" className="btn btn-primary">Visit My Work Place</a>
         </div>
       </header>

@@ -1,5 +1,6 @@
 import React from "react";
 import Cv from "./components/CV.pdf";
+import MainPic from "./components/MainPicture.svg";
 function About() {
   return (
     <>
@@ -8,7 +9,7 @@ function About() {
           <div className="about">
             <div className="about-img-holder">
               <img
-                src="./compnents/MainPicture.svg"
+                src={MainPic}
                 className="about-img"
                 alt="Svg of a programmer"
               />
@@ -31,7 +32,13 @@ function About() {
                 power of technology, I aim to create solutions that improve
                 people's lives and contribute positively to society.
               </p>
-              <a className="btn-rounded btn btn-outline-primary mt-4">
+              <a
+                href={Cv}
+                download
+                target="_blank"
+                rel="noreferrer"
+                className="btn-rounded btn  btn-outline-primary mt-4"
+              >
                 Download CV
               </a>
             </div>

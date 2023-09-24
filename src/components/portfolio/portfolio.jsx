@@ -1,8 +1,51 @@
-import React from "react";
-import CityServe from "../../../public/assets/imgs/city_serve.png";
-import Persento from "../../../public/assets/imgs/persento.png";
-import Quizsh from "../../../public/assets/imgs/Quizsh.png";
+import React, { useState, useEffect } from "react";
+import CityServeSM from "../../assets/responsive-images/city_serve-sm.webp";
+import CityServeMD from "../../assets/responsive-images/city_serve-md.webp";
+import CityServeLG from "../../assets/responsive-images/city_serve-lg.webp";
+import PersentoSM from "../../assets/responsive-images/persento-sm.webp";
+import PersentoMD from "../../assets/responsive-images/persento-md.webp";
+import PersentoLG from "../../assets/responsive-images/persento-lg.webp";
+import QuizshSM from "../../assets/responsive-images/Quizsh-sm.webp";
+import QuizshMD from "../../assets/responsive-images/Quizsh-md.webp";
+import QuizshLG from "../../assets/responsive-images/Quizsh-lg.webp";
+
 function Portfolio() {
+  const [imageSrc, setImageSrc] = useState({
+    cityServe: CityServeLG,
+    persento: PersentoLG,
+    quizsh: QuizshLG,
+  });
+  useEffect(() => {
+    const handleResize = () => {
+      const width = window.innerWidth;
+      if (width < 768) {
+        setImageSrc({
+          cityServe: CityServeSM,
+          persento: PersentoSM,
+          quizsh: QuizshSM,
+        });
+      } else if (width < 1024) {
+        setImageSrc({
+          cityServe: CityServeMD,
+          persento: PersentoMD,
+          quizsh: QuizshMD,
+        });
+      } else {
+        setImageSrc({
+          cityServe: CityServeLG,
+          persento: PersentoLG,
+          quizsh: QuizshLG,
+        });
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <>
       <section className="section" id="portfolio">
@@ -14,11 +57,13 @@ function Portfolio() {
               <a
                 href="https://github.com/Mohmmadshabrani/city_serve_MS"
                 className="portfolio-card"
+                target="_blank"
+                rel="noreferrer"
               >
                 <img
-                  src={CityServe}
-                  className="CityServe-card-img"
-                  alt="CityServe image"
+                  src={imageSrc.cityServe}
+                  className="portfolio-card-img"
+                  alt="CityServe"
                 />
                 <span className="portfolio-card-overlay">
                   <span className="portfolio-card-caption">
@@ -29,11 +74,16 @@ function Portfolio() {
               </a>
             </div>
             <div className="col-md-4">
-              <a href="https://github.com/Mohmmadshabrani/php_mainProject_shabrani" className="portfolio-card">
+              <a
+                href="https://github.com/Mohmmadshabrani/php_mainProject_shabrani"
+                className="portfolio-card"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className="portfolio-card-img"
-                  src={Persento}
-                  alt="Persento-image"
+                  src={imageSrc.persento}
+                  alt="Persento"
                 />
                 <span className="portfolio-card-overlay">
                   <span className="portfolio-card-caption">
@@ -46,11 +96,16 @@ function Portfolio() {
               </a>
             </div>
             <div className="col-md-4">
-              <a href="https://github.com/Mohmmadshabrani/project_shabrani" className="portfolio-card">
+              <a
+                href="https://github.com/Mohmmadshabrani/project_shabrani"
+                className="portfolio-card"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className="portfolio-card-img"
-                  src={Quizsh}
-                  alt="Quizsh-image"
+                  src={imageSrc.quizsh}
+                  alt="Quizsh"
                 />
                 <span className="portfolio-card-overlay">
                   <span className="portfolio-card-caption">

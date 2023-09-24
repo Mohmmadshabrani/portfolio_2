@@ -3,7 +3,6 @@ import Pencil from "./components/pencil-case.svg";
 import responsive from "./components/responsive.svg";
 import toolbox from "./components/toolbox.svg";
 import analytics from "./components/analytics.svg";
-import "../../css/style.css";
 function Capablities() {
   return (
     <>
